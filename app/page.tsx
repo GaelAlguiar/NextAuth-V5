@@ -1,9 +1,9 @@
-import { Libre_Franklin } from "next/font/google";
+import { Fjalla_One } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { LoginButton } from "@/components/auth/login-button";
 
-const font = Libre_Franklin({
+const font = Fjalla_One({
   subsets: ["latin"],
   weight: ["400"],
 });
